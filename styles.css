@@ -113,6 +113,7 @@ header h2 {
 .information {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .boxescontainer {
@@ -127,4 +128,58 @@ header h2 {
   width: 100px;
   border: 5px solid #3882f6;
   border-radius: 10%;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote .Thor {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.signupforum {
+  color: #fff;
+  display: flex;
+}
+
+.signupforum .container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.signupforum .container .call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 60px;
+}
+
+.call-to-action .signup-div {
+  display: flex;
+  align-items: center;
+}
+
+.text h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0%;
 }
