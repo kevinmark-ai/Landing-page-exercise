@@ -170,7 +170,18 @@ header h2 {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  gap: 60px;
+  gap: 400px;
+  border-radius: 20px;
+}
+
+.signup-div .signup {
+  background-color: #3882f6;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2px 20px;
 }
 
 .call-to-action .signup-div {
@@ -182,4 +193,13 @@ header h2 {
 p {
   margin-top: 0;
   margin-bottom: 0%;
+}
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #fff;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
 }
